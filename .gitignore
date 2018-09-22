@@ -1,3 +1,6 @@
 # 実行ファイルは要らない
 money/project/target/
 money/target/
+.idea
+money/.idea
+money/project/project/target
