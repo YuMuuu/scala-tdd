@@ -14,4 +14,9 @@ class MoneyTest extends FlatSpec with DiagrammedAssertions {
     assert(five.amount == 15)
   }
 
+  "equivalence" should "$5 =$5" in {
+    val five: Dollar = Dollar(5)
+    assert(five.amount == 5)
+  }
+
 }
